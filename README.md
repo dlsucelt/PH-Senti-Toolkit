@@ -5,9 +5,7 @@ Developed by researchers at the [Center for Language Technologies (CeLT)](https:
 ---
 
 ### ⚠️ Disclaimer
-The **PH Senti Toolkit** is **not intended for public or production use**.  
-The models and resources provided here are **experimental** and were developed as part of ongoing research in sentiment analysis for Philippine languages.  
-They have **not been fully tested for deployment** and are known to contain **biases and limitations**.  
+The **PH Senti Toolkit** is **not intended for public or production use**. The models and resources provided here are **experimental** and were developed as part of ongoing research in sentiment analysis for Philippine languages. They have **not been fully tested for deployment** and are known to contain **biases and limitations**.  
 
 Researchers and practitioners are welcome to explore, evaluate, and build upon these resources. Anyone with plans to use these purely for their outputs (e.g., in end-user applications) should proceed with caution. The resources are not ready for deployment.
 
@@ -18,16 +16,14 @@ The **PH Senti Toolkit** serves as a **research resource** accompanying our work
 > *Exploring Emoji-based Synthetic Annotations for Filipino-English Sentiment Analysis*,  
 > accepted to the **Workshop on Computation: Theory and Practice (WCTP) 2025**.
 
-The toolkit’s purpose is **transparency and reproducibility**.  
-We are making our resources publicly visible so that others can examine, replicate, and extend our work on sentiment and affect analysis in Philippine languages.  
-Over time, this repository will be populated with additional materials, code, and documentation from our ongoing and future studies.
+The toolkit’s purpose is **transparency and reproducibility**. We are making our resources publicly visible so that others can examine, replicate, and extend our work on sentiment and affect analysis in Philippine languages. Over time, this repository will be populated with additional materials, code, and documentation from our ongoing and future studies.
 
 ---
 
 ### 📦 Included Resources
 We are distributing select artifacts from our research for **academic transparency**:
 
-- 🪶 (Upcoming) **Word2Vec models** trained on Philippine social-media text (for English, Filipino, and mixed-language data)  
+- 🪶 **Word2Vec models** trained on Philippine Twitter text data
 - 🤖 (Upcoming) **Best-performing sentiment classifier** trained using emoji-based synthetic labels  
 - 💬 (Upcoming) **Tweet ID datasets** (in compliance with Twitter’s data redistribution policy)  
 - ✂️ (Upcoming) **Custom tokenization scripts** used in our preprocessing pipeline  
@@ -45,9 +41,8 @@ The **PH Senti Toolkit** is designed for:
 ---
 
 ### 🧩 Roadmap
-This repository is **a work in progress**.  
-We will **gradually populate** it with:
-- updated pretrained embeddings  
+This repository is **a work in progress**. We will **gradually populate** it with:
+- updated pretrained embeddings
 - model architectures and configuration details  
 - tokenization and preprocessing utilities  
 - references to future CeLT studies related to sentiment and affect analysis  
@@ -71,3 +66,5 @@ This license allows others to freely use, modify, and redistribute the code and 
 provided that the original copyright and license notice are retained.
 The authors and the Center for Language Technologies (CeLT), De La Salle University,
 retain full ownership of all intellectual property associated with this work.
+
+*Content of the README was primarily generated with the help of ChatGPT*
