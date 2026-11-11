@@ -38,3 +38,6 @@ Models = "https://doi.org/10.5281/zenodo.17369886"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
