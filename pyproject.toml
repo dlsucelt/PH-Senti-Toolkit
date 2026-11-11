@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ph-senti-toolkit"
+version = "0.1.0"
+description = "Tokenizer and resources from Co et al. (2025), emoji-based synthetic annotations for Filipino-English sentiment analysis"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "License" }
+authors = [
+  { name = "Sean Timothy S. Co" },
+  { name = "Nicholas Rupert E. Custodio" },
+  { name = "Alexis Louis L. Dela Cruz" },
+  { name = "Martin Christopher B. Sanchez" },
+  { name = "Jason Jan C. Jabanes" },
+  { name = "Edward P. Tighe", email = "edward.tighe@dlsu.edu.ph" },
+]
+keywords = ["sentiment analysis", "tokenizer", "Filipino", "Tagalog", "code-switching", "Twitter", "word2vec"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Intended Audience :: Science/Research",
+  "Topic :: Text Processing :: Linguistic",
+  "Natural Language :: Filipino",
+  "Natural Language :: English",
+]
+dependencies = []
+
+[project.optional-dependencies]
+models = ["gensim>=4.1"]
+test = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/dlsucelt/PH-Senti-Toolkit"
+Models = "https://doi.org/10.5281/zenodo.17369886"
+
+[tool.setuptools.packages.find]
+where = ["src"]

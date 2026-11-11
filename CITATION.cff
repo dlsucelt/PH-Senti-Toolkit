@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: "If you use this toolkit or the Word2Vec models, please cite the paper below."
+title: "PH-Senti-Toolkit"
+type: software
+version: 0.1.0
+date-released: 2026-11-11
+license: MIT
+repository-code: "https://github.com/dlsucelt/PH-Senti-Toolkit"
+abstract: >-
+  Tokenizer and pretrained Word2Vec models from Co et al. (2025),
+  "Exploring Emoji-based Synthetic Annotations for Filipino-English
+  Sentiment Analysis". Released for research transparency; not
+  production-ready.
+keywords:
+  - sentiment analysis
+  - Filipino
+  - Tagalog
+  - code-switching
+  - Twitter
+  - word2vec
+  - tokenizer
+authors: &authors
+  - family-names: Co
+    given-names: Sean Timothy S.
+    affiliation: De La Salle University
+  - family-names: Custodio
+    given-names: Nicholas Rupert E.
+    affiliation: De La Salle University
+  - family-names: Dela Cruz
+    given-names: Alexis Louis L.
+    affiliation: De La Salle University
+  - family-names: Sanchez
+    given-names: Martin Christopher B.
+    affiliation: De La Salle University
+  - family-names: Jabanes
+    given-names: Jason Jan C.
+    affiliation: De La Salle University
+  - family-names: Tighe
+    given-names: Edward P.
+    email: edward.tighe@dlsu.edu.ph
+    affiliation: De La Salle University
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.17369886
+    description: Word2Vec models (v2, 200D)
+preferred-citation:
+  type: conference-paper
+  title: "Exploring Emoji-based Synthetic Annotations for Filipino-English Sentiment Analysis"
+  authors: *authors
+  year: 2025
+  collection-title: "Proceedings of the Workshop on Computation: Theory and Practice (WCTP 2025)"
+  conference:
+    name: "Workshop on Computation: Theory and Practice (WCTP 2025)"
+  notes: "In press. Full bibliographic details will be added once published."
